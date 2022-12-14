@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LPU.DWH">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="S01-9700-DB05:SOGAZ-MED\ryabov.mikhail">
+          <Created>2022-08-12T16:50:02.4807663+03:00</Created>
+          <Type>SQL</Type>
+          <Server>S01-9700-DB05</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>lpu</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="BackupnRestore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BackupnRestore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BulkImport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BulkImport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateDatabase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateDatabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateDimensions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateDimensions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateFacts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateFacts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateInterface.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateInterface.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateViews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Different_Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Different_Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="OncoDiag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>OncoDiag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Dsp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Dsp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery9.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery9.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Диспансерные_приемы.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Диспансерные_приемы.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Первичные_приемы.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Первичные_приемы.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Все_приемы.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Все_приемы.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Заболеваемость.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Заболеваемость.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ф12_0000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ф12_0000.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ф12_1500.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ф12_1500.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UnitTests.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UnitTests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Наблюдение.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Наблюдение.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Профиль-диагноз.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Профиль-диагноз.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ф12_1000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:S01-9700-DB05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>S01-9700-DB05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ф12_1000.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
